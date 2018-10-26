@@ -1,0 +1,6 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Midterm2.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  main.cpp
+c:\users\0941162\documents\github\another\test4\main.cpp(130): warning C4101: 'derp': unreferenced local variable
+c:\users\0941162\documents\github\another\test4\main.cpp(165): warning C4101: 'b': unreferenced local variable
+c:\users\0941162\documents\github\another\test4\main.cpp(286): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Test4.vcxproj -> C:\Users\0941162\Documents\GitHub\Another\Debug\Test4.exe

@@ -1,0 +1,18 @@
+﻿  main.cpp
+c:\users\0941162\documents\github\another\test4\main.cpp(125): warning C4101: 'derp': unreferenced local variable
+c:\users\0941162\documents\github\another\test4\main.cpp(161): warning C4101: 'b': unreferenced local variable
+c:\users\0941162\documents\github\another\test4\main.cpp(259): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+main.obj : error LNK2019: unresolved external symbol SDL_FreeSurface referenced in function "struct SDL_Texture * __cdecl Texture(char const *)" (?Texture@@YAPEAUSDL_Texture@@PEBD@Z)
+main.obj : error LNK2019: unresolved external symbol SDL_CreateWindow referenced in function "void __cdecl Game::`dynamic initializer for 'window''(void)" (??__Ewindow@Game@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol SDL_GetKeyboardState referenced in function SDL_main
+main.obj : error LNK2019: unresolved external symbol SDL_PollEvent referenced in function SDL_main
+main.obj : error LNK2019: unresolved external symbol SDL_CreateRenderer referenced in function "void __cdecl TilePlacement(class std::vector<class std::vector<int,class std::allocator<int> >,class std::allocator<class std::vector<int,class std::allocator<int> > > > &)" (?TilePlacement@@YAXAEAV?$vector@V?$vector@HV?$allocator@H@std@@@std@@V?$allocator@V?$vector@HV?$allocator@H@std@@@std@@@2@@std@@@Z)
+main.obj : error LNK2019: unresolved external symbol SDL_CreateTextureFromSurface referenced in function "struct SDL_Texture * __cdecl Texture(char const *)" (?Texture@@YAPEAUSDL_Texture@@PEBD@Z)
+main.obj : error LNK2019: unresolved external symbol SDL_Init referenced in function "void __cdecl initialize(void)" (?initialize@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol IMG_Init referenced in function "void __cdecl initialize(void)" (?initialize@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol IMG_Load referenced in function "struct SDL_Texture * __cdecl Texture(char const *)" (?Texture@@YAPEAUSDL_Texture@@PEBD@Z)
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+SDL2-2.0.8\lib\x86\SDL2.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+SDL2-2.0.8\lib\x86\SDL2main.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+SDL2-2.0.8\lib\x86\SDL2_image.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\0941162\Documents\GitHub\Another\x64\Debug\Test4.exe : fatal error LNK1120: 10 unresolved externals

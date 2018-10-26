@@ -1,0 +1,7 @@
+﻿  main.cpp
+c:\users\campbelljc1\documents\visual studio 2017\projects\midterm2\midterm2\main.cpp(125): warning C4101: 'derp': unreferenced local variable
+c:\users\campbelljc1\documents\visual studio 2017\projects\midterm2\midterm2\main.cpp(161): warning C4101: 'b': unreferenced local variable
+c:\users\campbelljc1\documents\visual studio 2017\projects\midterm2\midterm2\main.cpp(213): warning C4390: ';': empty controlled statement found; is this the intent?
+c:\users\campbelljc1\documents\visual studio 2017\projects\midterm2\midterm2\main.cpp(259): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Midterm2.vcxproj -> C:\Users\CampbellJC1\documents\visual studio 2017\Projects\Midterm2\Debug\Midterm2.exe
+  Midterm2.vcxproj -> C:\Users\CampbellJC1\documents\visual studio 2017\Projects\Midterm2\Debug\Midterm2.pdb (Partial PDB)
